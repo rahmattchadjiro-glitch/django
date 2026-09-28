@@ -1,0 +1,16 @@
+<h1>Entreprises partenaires</h1>
+
+
+<ul>
+    {% for entreprise in entreprises %}
+    <li>{{entreprise.nom}} - {{entreprise.ville}}</li>
+    {% empty %}
+
+    <li>aucun entreprise enregistrer pour le moment</li>
+    {% endfor %}
+</ul>
+
+
+
+
+
