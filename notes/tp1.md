@@ -35,12 +35,12 @@ Gestion des doublons : Associer le nom et la ville permet d'enregistrer ces diff
 - Oui, le message est compréhensible si xa exite il va interpreter cela soit disant que le nom ou ville est unique
 
 # La première page 
-- je ne sais pas
+-  Elle indique le chemin exact attendu ce qui permet de voire le dossier manquant où replacer le fichier.
 - Non, cette page d'erreur détaillée ne s'affichera pas lorsque l'application sera en production (en ligne).
 
 # Le dépôt git
-
-
-
+ - La base de données db.sqlite3.
+ - Les deux fichiers engendrés par uv qui doivent absolument être commités sont pyproject.toml et uv.lock
+ - pyproject.toml contient la configuration global du projet et uv.lock enregistre les versions exactes de notre project et por cloner il faut faire sync
 
 
