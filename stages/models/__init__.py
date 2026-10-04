@@ -5,3 +5,5 @@ from .enseignant_referent import EnseignantReferent
 from .offre import Offre
 from .competence import Competence
 from .candidature import Candidature
+from .tuteur_entreprise import TuteurEntreprise
+from .stage import Stage
