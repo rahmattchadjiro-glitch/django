@@ -44,7 +44,7 @@ class EnseignantReferentAdmin(admin.ModelAdmin):
 
 @admin.register(Offre)
 class OffreAdmin(admin.ModelAdmin):
-    list_display = ('titre', 'description','date_debut','date_fin','entreprise', 'nb_places','competence_attendu')
+    list_display = ('titre', 'description','date_debut','date_fin','entreprise', 'nb_places')
 
 
 
